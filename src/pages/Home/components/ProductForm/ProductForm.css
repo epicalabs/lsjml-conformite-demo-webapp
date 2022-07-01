@@ -49,11 +49,13 @@
 #product-description{
     border: 0px;
     border-radius: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 #product-form-top{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #product-form-buttons{
@@ -86,4 +88,5 @@
     display: flex;
     flex-wrap: wrap;
     align-items: end;
+    justify-content: space-between;
 }

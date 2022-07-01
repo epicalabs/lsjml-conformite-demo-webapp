@@ -15,7 +15,7 @@ const ProductForm = () => {
           <p>Manufacturier</p>
           <input type="text" />
           <p>Description:</p>
-          <textarea name="product-description" id="product-description" cols="32" rows="5"/>
+          <textarea name="product-description" id="product-description" cols="33" rows="5"/>
           <p>Udm:</p>
           <select name="udm" id="">
             <option value="">--- Select an option ---</option>

@@ -1,0 +1,48 @@
+#client-form{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#client-form h1{
+    text-align: start;
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+#client-form p{
+    margin-bottom: 2px;
+}
+
+#client-form input{
+    margin-bottom: 5px;
+    border: 0px;
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#client-form-buttons{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.client-form-buttons-button{
+    border: 0px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+}

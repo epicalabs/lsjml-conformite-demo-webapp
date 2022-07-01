@@ -1,0 +1,89 @@
+#product-form{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+#product-form h1{
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+#product-form p{
+    margin: 2px;
+}
+
+#product-form input, select{
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 5px;
+    height: 25px;
+    width: 253px;
+    font-size: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#product-form table{
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#product-form th{
+    background-color: rgb(104, 207, 255);
+    padding: 5px;
+}
+
+.table-left{
+    border-top-left-radius: 8px;
+}
+
+.table-right{
+    border-top-right-radius: 8px;
+}
+
+#product-description{
+    border: 0px;
+    border-radius: 5px;
+}
+
+#product-form-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+#product-form-buttons{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.product-image{
+    width: 260px;
+}
+
+.product-form-buttons-button{
+    display: block;
+    border: 0px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+}
+
+#product-form-bottom-right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}

@@ -1,0 +1,120 @@
+#shopping{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#shopping p, h2{
+    font-weight: bold;
+}
+
+#shopping select{
+    margin: 0px;
+    width: 200px;
+}
+
+#shopping input{
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 120px;
+}
+
+#shopping textarea{
+    border: 0px;
+    border-radius: 5px;
+    width: 195px;
+    margin-top: 7px;
+}
+
+#shopping button{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: #6e2500;
+    color: #fff;
+}
+
+#shopping-top{
+    display: flex;
+}
+
+#shopping-top-left div{
+    display: flex;
+    align-items: center;
+}
+
+#shopping-top-left p{
+    margin: 10px;
+    margin-right: 4px;
+    width: 150px;
+}
+
+#shopping-top-left input{
+    width: 190px;
+}
+
+#shopping-top-right{
+    margin-left: 50px;
+}
+
+#shopping-top-right-top{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shopping-top-right-top div button{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#shopping-center table{
+    background-color: #fff;
+    border: 3px solid #401601;
+    border-collapse: collapse;
+}
+
+#shopping-center th{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#shopping-center thead th{
+    background-color: #6e2500;
+    border: 3px solid #401601;
+}
+
+#shopping-center tbody th{
+    border: 2px solid #707070;
+}
+
+#shopping-bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#shopping-bottom-left button{
+    display: block;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+#shopping-bottom-right div{
+    display: flex;
+    align-items: center;
+}
+
+#shopping-bottom-right div p{
+    text-align: end;
+    width: 100px;
+    margin-right: 5px;
+}

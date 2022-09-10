@@ -1,0 +1,138 @@
+#login{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#login-card{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+#login-card p{
+    margin: 3px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.login-card-field{
+    margin-bottom: 20px;
+}
+
+.login-card-field-input{
+    border: 0px;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#login-card-btn{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 0px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#login-loading{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    color: #fff;
+}
+
+#login-card-error{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffbcbc;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+}
+
+#login-card-error img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#login-success{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Loader */
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,52 @@
+#functionalities-options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#functionalities-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+
+
+#functionalities-bar{
+    background-color: #ffdd03;
+}
+
+.functionalities-options-item{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    transition: 3;
+}
+
+.functionalities-options-item:hover{
+    background-color: #ffdd03;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+#functionalities-options a{
+    text-decoration: none;
+    color: #000;
+}
+
+.achats{
+    background-color: #e35209;
+}
+
+.inventaire{
+    background-color: #7ce800;
+}

@@ -1,0 +1,27 @@
+#identifiants-box{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+#identifiants-table{
+    background-color: #fff;
+    border: 3px solid #009fe8;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+#identifiants-table thead th{
+    background-color: #46b7eb;
+    border: 3px solid #009fe8;
+}
+
+#identifiants-table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid #bdbdbd;
+}

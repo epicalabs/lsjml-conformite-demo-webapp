@@ -87,6 +87,5 @@
 #product-form-bottom-right{
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
     justify-content: space-between;
 }

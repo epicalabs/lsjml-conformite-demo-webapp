@@ -1,58 +1,73 @@
-#header-logo{
-    display: flex;
-    justify-content: center;
+#home-title{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-header ul{
+#home-bar{
+    height: 7px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+#home-options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#home-options a{
+    text-decoration: none;
+    color: #000;
+}
+
+.home-options-item{
     display: flex;
-    list-style: none;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    transition: 3;
+}
+
+.home-options-item:hover{
+    background-color: aqua;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.home-options-item-frame{
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
 }
 
-.btn{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 16px;
-    border: 0px;
-    border-radius: 10px;
-    color: #fff;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: 'Merriweather Sans', sans-serif;
+.home-options-item-frame-parameters{
+    width: 60px;
 }
 
-.product{
-    background-color: #0d6efd;
+.home-options-item-frame-functionalities{
+    width: 47px;
 }
 
-.supplier{
-    background-color: #198754;
+.home-options-item-frame-users{
+    width: 75px;
 }
 
-.client{
-    background-color: #6f42c1;
-}
-
-hr{
-    max-width: 1400px;
-    height: 4px;
-    background-color: rgb(175, 174, 174);
-    border-width: 0px;
-    border-radius: 50px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    display: flex;
-}
-
-.form-box{
-    max-width: 1400px;
-    margin: auto;
-    color: #fff;
-    border-radius: 20px;
-    margin-bottom: 50px;
+.home-options-item-text{
+    margin-left: 20px;
+    font-size: 20px;
 }
 

@@ -1,0 +1,48 @@
+#identifiants-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#identifiants-banner-title{
+    display: flex;
+    align-items: center;
+}
+
+#identifiants-banner-title-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+#identifiants-banner-title-frame-icon{
+    width: 50px;
+}
+
+#identifiants-banner-title-text{
+    display: flex;
+    margin-left: 10px;
+}
+
+#identifiants-banner-back a{
+    display: flex;
+    text-decoration: none;
+    color: #707070;
+}
+
+#identifants-banner-back-text{
+    margin-left: 5px;
+}
+
+#titlepage-banner-title-text-subtitle{
+    display: flex;
+    color: #707070;
+    margin-left: 10px;
+}
+
+#titlepage-banner-title-text-subtitle h1{
+    margin-right: 10px;
+}

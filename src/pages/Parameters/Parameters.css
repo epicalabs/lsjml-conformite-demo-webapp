@@ -1,0 +1,62 @@
+#parameters-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 0px;
+}
+
+.btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.product{
+    background-color: #0d6efd;
+}
+
+.supplier{
+    background-color: #198754;
+}
+
+.client{
+    background-color: #6f42c1;
+}
+
+.categories{
+    background-color: #b31077;
+}
+
+hr{
+    max-width: 1400px;
+    height: 7px;
+    background-color: rgb(175, 174, 174);
+    border-width: 0px;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-box{
+    max-width: 1400px;
+    margin: auto;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.form-box hr{
+    background-color: rgb(175, 174, 174);;
+}
+

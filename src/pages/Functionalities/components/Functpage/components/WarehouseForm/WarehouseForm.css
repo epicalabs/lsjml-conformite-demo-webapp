@@ -1,0 +1,143 @@
+#warehouse{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#warehouse p, h2{
+    font-weight: bold;
+}
+
+#warehouse select{
+    margin: 0px;
+}
+
+#warehouse input{
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 120px;
+}
+
+#warehouse button{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: #057807;
+    color: #fff;
+}
+
+#warehouse-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+#warehouse-top-left{
+    display: flex;
+}
+
+#warehouse-top-left p{
+    margin-right: 7px;
+}
+
+#warehouse-top-left-lside div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#warehouse-top-left-rside div{
+    display: flex;
+    align-items: center;
+}
+
+#warehouse-top-right{
+    display: flex;
+}
+
+#warehouse-top-right div{
+    margin-left: 30px;
+}
+
+#warehouse-top-right p{
+    margin: 2px;
+}
+
+#warehouse-center-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#warehouse-center-top div{
+    display: flex;
+    align-items: center;
+}
+
+#warehouse-center-top h1{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+
+#warehouse-center table{
+    background-color: #fff;
+    border: 3px solid #057807;
+    border-collapse: collapse;
+}
+
+#warehouse-center thead{
+    background-color: #057807;
+}
+
+#warehouse-center th{
+    padding: 10px;
+    border: 1px solid #707070;
+}
+
+#warehouse-bottom{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+#warehouse-bottom-left div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#warehouse-bottom-left h2{
+    margin: 0px;
+}
+
+#warehouse-bottom-center p{
+    margin-right: 8px;
+}
+
+#warehouse-bottom-center-top{
+    background-color: #057807;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#warehouse-bottom-center-top div{
+    display: flex;
+    align-items: center;
+}
+
+#warehouse-bottom-center-bottom div{
+    display: flex;
+    align-items: center;
+}
+
+#warehouse-bottom-right button{
+    display: block;
+    margin-bottom: 10px;
+}

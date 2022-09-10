@@ -1,0 +1,43 @@
+#categories{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#categories h1{
+    text-align: start;
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+#categories-box{
+    display: flex;
+    justify-content: center;
+}
+
+#categories-box-table{
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+#categories-box-table thead{
+    background-color: #b31077;
+    color: #fff;
+}
+
+#categories-box-table thead th{
+    border: 3px solid #850355;
+}
+
+#categories-box-table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid #bdbdbd;
+}

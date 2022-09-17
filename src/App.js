@@ -12,6 +12,9 @@ import SupplierForm from './pages/Parameters/components/SupplierForm/SupplierFor
 import Categories from './pages/Parameters/components/Categories/Categories';
 import Functionalities from './pages/Functionalities/Functionalities';
 import FunctPage from './pages/Functionalities/components/Functpage/FunctPage'
+import ActualStock from './pages/Functionalities/components/Functpage/components/Reports/components/ActualStock/ActualStock';
+import Demander from './pages/Functionalities/components/Functpage/components/Quality/components/Demander/Demander';
+import List from './pages/Functionalities/components/Functpage/components/Quality/components/List/List';
 
 function App() {
   return (
@@ -32,7 +35,11 @@ function App() {
                   <Route path={'categories'} element={<Categories/>}/>
                 </Route>
                 <Route path={"/fonctionalites"} element={<Functionalities/>}/>
-                <Route path={'/fonctionalites/:functName'} element={<FunctPage/>}/>
+                <Route path={'/fonctionalites/:functName'} element={<FunctPage/>}>
+                  <Route path={'actualStock'} element={<ActualStock/>}/>
+                  <Route path={'demander'} element={<Demander/>}/>
+                  <Route path={'list'} element={<List/>}/>
+                </Route>
               </Routes>
             </main>
         </AuthProvider>

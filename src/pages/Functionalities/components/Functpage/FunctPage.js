@@ -5,6 +5,8 @@ import { useParams } from 'react-router-dom'
 import WarehouseForm from './components/WarehouseForm/WarehouseForm'
 import ShoppingForm from './components/ShoppingForm/ShoppingForm'
 import { motion } from 'framer-motion'
+import Reports from './components/Reports/Reports'
+import Quality from './components/Quality/Quality'
 
 const FunctPage = () => {
   const {functName} = useParams();
@@ -19,6 +21,12 @@ const FunctPage = () => {
           }
           {functName === 'inventaire' &&
             <WarehouseForm/>
+          }
+          {functName === 'rapports' &&
+            <Reports/>
+          }
+          {functName === 'qualite' &&
+            <Quality/>
           }
         </div>
     </motion.section>

@@ -1,0 +1,44 @@
+#quality{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#quality-title h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#quality-title hr{
+    background-color: #fff;
+}
+
+#quality-buttons ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+#quality-buttons a{
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 7px;
+    border: 1px solid #faa82d;
+    padding-left: 15px;
+}
+
+#quality-buttons li{
+    margin-right: 20px;
+}
+
+#quality-content{
+    background-color: #fff;
+    color: #000;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}

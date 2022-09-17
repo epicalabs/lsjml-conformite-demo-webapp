@@ -34,13 +34,23 @@ const Functionalities = () => {
                     </div>
                 </motion.article>
             </Link>
-            <Link to={'quality'}>
+            <Link to={'qualite'}>
                 <motion.article className="functionalities-options-item" whileHover={{scale: 1.05}} whileTap={{scale: 1}}>
                     <div className="home-options-item-frame">
                         <img src={usersIcon} alt="Users-icon" className='home-options-item-frame-users'/>
                     </div>
                     <div className='home-options-item-text'>
                         <h1 className='home-options-item-text-title'>Qualité</h1>
+                    </div>
+                </motion.article>
+            </Link>
+            <Link to={'rapports'}>
+                <motion.article className="functionalities-options-item" whileHover={{scale: 1.05}} whileTap={{scale: 1}}>
+                    <div className="home-options-item-frame">
+                        <img src={usersIcon} alt="Users-icon" className='home-options-item-frame-users'/>
+                    </div>
+                    <div className='home-options-item-text'>
+                        <h1 className='home-options-item-text-title'>Rapports</h1>
                     </div>
                 </motion.article>
             </Link>

@@ -59,7 +59,7 @@ const Functionalities = () => {
                 </Link>
             }
             {(role === 'Qualité' || role === 'Achats' || role === 'Administrateur') &&
-                <Link to={'rapports'}>
+                <Link to={role === 'Qualité' ? 'rapports/riskAnalysis' : 'rapports/actualStock'}>
                     <motion.article className="functionalities-options-item" whileHover={{scale: 1.05}} whileTap={{scale: 1}}>
                         <div className="home-options-item-frame">
                             <img src={reportIcon} alt="Users-icon" className='home-options-item-frame-users'/>

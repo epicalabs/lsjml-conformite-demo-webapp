@@ -13,11 +13,11 @@ const ClientForm = () => {
         <input type="text" />
         <p>Adresse:</p>
         <input type="text" />
-        <p>Telephone:</p>
+        <p>Téléphone:</p>
         <input type="text" />
-        <p>E-Mail:</p>
+        <p>Adresse e-mail:</p>
         <input type="text" />
-        <p>Provence:</p>
+        <p>Province:</p>
         <input type="text" />
         <p>Ville:</p>
         <input type="text" />

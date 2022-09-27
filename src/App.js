@@ -15,6 +15,9 @@ import FunctPage from './pages/Functionalities/components/Functpage/FunctPage'
 import ActualStock from './pages/Functionalities/components/Functpage/components/Reports/components/ActualStock/ActualStock';
 import Demander from './pages/Functionalities/components/Functpage/components/Quality/components/Demander/Demander';
 import List from './pages/Functionalities/components/Functpage/components/Quality/components/List/List';
+import DemanderForm1 from './pages/Functionalities/components/Functpage/components/Quality/components/Demander/components/DemanderForm1/DemanderForm1';
+import DemanderForm2 from './pages/Functionalities/components/Functpage/components/Quality/components/Demander/components/DemanderForm2/DemanderForm2';
+import RiskAnalysis from './pages/Functionalities/components/Functpage/components/Reports/components/RiskAnalysis/RiskAnalysis';
 
 function App() {
   return (
@@ -37,8 +40,19 @@ function App() {
                 <Route path={"/fonctionalites"} element={<Functionalities/>}/>
                 <Route path={'/fonctionalites/:functName'} element={<FunctPage/>}>
                   <Route path={'actualStock'} element={<ActualStock/>}/>
-                  <Route path={'demander'} element={<Demander/>}/>
-                  <Route path={'list'} element={<List/>}/>
+                  <Route path={'riskAnalysis'} element={<RiskAnalysis/>}/>
+                  <Route path={'demander'} element={<Demander/>}>
+                    <Route index element={<DemanderForm1/>}/>
+                    <Route path={'formulaire1'} element={<DemanderForm1/>}/>
+                  </Route>
+                  <Route path={'list'} element={<List/>}>
+                    <Route index element={<Demander/>}/>
+                    <Route path={'demandeList'} element={<Demander/>}>
+                      <Route index element={<DemanderForm1/>}/> 
+                      <Route path={'formulaire1'} element={<DemanderForm1/>}/>
+                      <Route path={'formulaire2'} element={<DemanderForm2/>}/>
+                    </Route>
+                  </Route>
                 </Route>
               </Routes>
             </main>

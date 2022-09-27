@@ -35,8 +35,8 @@ const Header = () => {
           <div ref={ref}>
             <button onClick={() => setIsOpen(isOpen => !isOpen)} id='header-user-card'>
               <div id='header-user-card-content'>
-                <h2>{auth.username}</h2>
-                <p>Administrateur</p>
+                <h2>{auth.user}</h2>
+                <p>{auth.role}</p>
               </div>
               <div id='header-user-card-dropdown'>
                 <FontAwesomeIcon icon={faCaretDown}/>

@@ -38,14 +38,18 @@ const ProductForm = () => {
         <div id='product-form-top-right'>
           <p>Fourniseur</p>
           <table>
-            <tr>
-              <th className='table-left'>Fournisseur</th>
-              <th className='table-right'>Cod Produit Fornisseur</th>
-            </tr>
-            <tr>
-              <td>''</td>
-              <td>''</td>
-            </tr>
+            <thead>
+              <tr>
+                <th className='table-left'>Fournisseur</th>
+                <th className='table-right'>Cod Produit Fornisseur</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>''</td>
+                <td>''</td>
+              </tr>
+            </tbody>
           </table>
           <p>Stock minimun</p>
           <input type="text" />

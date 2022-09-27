@@ -1,6 +1,64 @@
-#list-box{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 20px;
+.list-accordion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #faa82d;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+.list-accordion-info{
+    display: flex;
+}
+
+.list-accordion-info div{
+    min-width: 180px;
+}
+
+.list-accordion-info-key{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.list-accordion-info-value{
+    margin-top: 0px;
+}
+
+.list-accordion-arrow-frame p{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+    padding: 4px;
+}
+
+.active, .list-accordion:hover{
+    background-color: #faa82d;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.list-accordion-info-value-condition{
+    margin: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.approved{
+    background-color: #0ba303;
+    color: #fff;
+}
+
+.onhold{
+    background-color: #fffb05;
 }

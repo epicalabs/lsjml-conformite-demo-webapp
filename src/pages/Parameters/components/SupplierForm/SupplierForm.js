@@ -14,13 +14,13 @@ const SupplierForm = () => {
         <input type="text" />
         <p>Adresse:</p>
         <input type="text"/>
-        <p>Telephone:</p>
+        <p>Téléphone:</p>
         <input type="text"/>
-        <p>E-Mail:</p>
+        <p>Adresse e-mail:</p>
         <input type="text"/>
         <p>Contact:</p>
         <input type="text" />
-        <p>Tel o Cedula:</p>
+        <p>NAS:</p>
         <input type="text" />
         <div id='supplier-form-buttons'>
           <motion.button className='supplier-form-buttons-button' whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }}>Nouveau</motion.button>

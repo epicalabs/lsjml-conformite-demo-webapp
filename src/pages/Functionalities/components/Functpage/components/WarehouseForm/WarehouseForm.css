@@ -34,15 +34,20 @@
 
 #warehouse-top{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #warehouse-top-left{
     display: flex;
 }
 
+#warehouse-top select, #warehouse-top input{
+    width: 150px;
+}
+
 #warehouse-top-left p{
     margin-right: 7px;
+    width: 120px;
 }
 
 #warehouse-top-left-lside div{
@@ -51,9 +56,14 @@
     margin-right: 20px;
 }
 
-#warehouse-top-left-rside div{
+#warehouse-top-center div{
     display: flex;
     align-items: center;
+}
+
+#warehouse-top-center p{
+    margin-right: 7px;
+    width: 120px;
 }
 
 #warehouse-top-right{
@@ -66,6 +76,10 @@
 
 #warehouse-top-right p{
     margin: 2px;
+}
+
+#warehouse-center{
+    margin-bottom: 40px;
 }
 
 #warehouse-center-top{
@@ -117,6 +131,10 @@
     margin: 0px;
 }
 
+#warehouse-bottom-left button{
+    width: 170px;
+}
+
 #warehouse-bottom-center p{
     margin-right: 8px;
 }
@@ -132,9 +150,15 @@
     align-items: center;
 }
 
+#warehouse-bottom-center-top p{
+    text-align: end;
+    width: 120px;
+}
+
 #warehouse-bottom-center-bottom div{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #warehouse-bottom-right button{

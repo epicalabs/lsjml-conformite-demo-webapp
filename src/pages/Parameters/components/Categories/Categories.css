@@ -34,7 +34,7 @@
     border: 3px solid #850355;
 }
 
-#categories-box-table th{
+#categories-box-table th, #categories-box-table td{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;

@@ -11,46 +11,46 @@ const Categories = () => {
             <table id='categories-box-table'>
                 <thead>
                     <tr>
-                        <th>Código</th>
-                        <th>Identificación de Categoría</th>
+                        <th>Code</th>
+                        <th>Identification de la catégorie</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>110104</th>
-                        <th>Consomable</th>
+                        <td>110104</td>
+                        <td>Consomable</td>
                     </tr>
                     <tr>
-                        <th>119303</th>
-                        <th>Consomable Critique</th>
+                        <td>119303</td>
+                        <td>Consomable Critique</td>
                     </tr>
                     <tr>
-                        <th>122334</th>
-                        <th>Expertise</th>
+                        <td>122334</td>
+                        <td>Expertise</td>
                     </tr>
                     <tr>
-                        <th>112304</th>
-                        <th>Fornisseur De Laboratoire</th>
+                        <td>112304</td>
+                        <td>Fornisseur De Laboratoire</td>
                     </tr>
                     <tr>
-                        <th>123123</th>
-                        <th>Forniture De Bureau</th>
+                        <td>123123</td>
+                        <td>Forniture De Bureau</td>
                     </tr>
                     <tr>
-                        <th>123489</th>
-                        <th>Forniture de Laboratorie</th>
+                        <td>123489</td>
+                        <td>Forniture de Laboratorie</td>
                     </tr>
                     <tr>
-                        <th>163729</th>
-                        <th>Maintenance</th>
+                        <td>163729</td>
+                        <td>Maintenance</td>
                     </tr>
                     <tr>
-                        <th>157439</th>
-                        <th>Petit Équipement</th>
+                        <td>157439</td>
+                        <td>Petit Équipement</td>
                     </tr>
                     <tr>
-                        <th>194763</th>
-                        <th>Trousse Médicolégale</th>
+                        <td>194763</td>
+                        <td>Trousse Médicolégale</td>
                     </tr>
                 </tbody>
             </table>

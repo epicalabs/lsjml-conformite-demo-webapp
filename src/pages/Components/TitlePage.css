@@ -1,6 +1,7 @@
 #identifiants-banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #identifiants-banner-title{
@@ -19,7 +20,8 @@
 }
 
 #identifiants-banner-title-frame-icon{
-    width: 50px;
+    max-width: 45px;
+    max-height: 45px;
 }
 
 #identifiants-banner-title-text{

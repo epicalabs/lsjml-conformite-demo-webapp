@@ -1,13 +1,33 @@
-#demander-box{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 20px;
+.demander-box{
+    display: block;
+}
+
+.isClose{
+    display: none;
+}
+
+#demander-form-types{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#demander-form-types button{
+    background-color: #faa82d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 12px;
+    margin-right: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 #demander-number{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 #demander-number-key{
@@ -22,82 +42,28 @@
     padding-right: 5px;    
 }
 
-#demander-form p{
+#demander-number-value{
+    font-weight: bold;
+    border: 1px solid #faa82d;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 80px;
+    height: 38px;
+    text-align: center;
+}
+
+#demander-number-value-active{
+    font-weight: bold;
+    border: 1px solid #faa82d;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.demander-form-key{
     font-size: 15px;
     font-weight: bold;
-}
-
-#demander-form input{
-    font-family: 'Merriweather Sans', sans-serif;
-    border: 2px solid #faa82d;
-    border-radius: 10px;
-    height: 30px;
-    font-size: 15px;
-}
-
-#demander-form-top{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#demander-form-top-lside{
-    width: 50%;
-}
-
-#demander-form-top-rside{
-    width: 50%;
-}
-
-#demander-form-top-lside div, #demander-form-top-rside div{
-    display: flex;
-    align-items: center;
-}
-
-#demander-form-top-lside p{
-    width: 230px;
-    margin-bottom: 15px;
-}
-
-#demander-form-top-rside p{
-    width: 150px;
-}
-
-#demander-form-bottom textarea{
-    border: 2px solid #faa82d;
-    border-radius: 10px;
-    font-size: 15px;
-    font-family: 'Merriweather Sans', sans-serif;
-}
-
-#demander-form-bottom p{
-    margin-top: 30px;
-    margin-bottom: 5px;
-}
-
-#demander-form-bottom div{
-    display: flex;
-    justify-content: space-between;
-}
-
-#demander-form-bottom div p{
-    margin: 0px;
-    font-size: 13px;
-}
-
-#demander-form-footer{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#demander-form-footer button{
-    padding: 15px;
-    margin-top: 30px;
-    background-color: #faa82d;
-    color: #fff;
-    font-weight: bold;
-    border: 0px;
-    font-size: 20px;
-    border-radius: 10px;
-    font-family: 'Merriweather Sans', sans-serif;
-
 }

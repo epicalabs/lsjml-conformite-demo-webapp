@@ -1,0 +1,165 @@
+.demander-form-key{
+    margin-bottom: 4px;
+}
+
+.demander-form-textarea{
+    border: 2px solid #faa82d;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.demander-form-title{
+    margin-bottom: 4px;
+}
+
+#demander-form-textarea-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+#demander-form-textarea-bottom p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#demander-form-textarea-bottom-decision{
+    display: flex;
+}
+
+#demander-form-textarea-bottom-decision-overtune{
+    margin-left: 5px;
+    font-weight: normal !important;
+}
+
+#demander-form-textarea-bottom-checkbox{
+    display: flex;
+}
+
+#demander-form-textarea-bottom-checkbox input{
+    width: 20px;
+}
+
+#demander-form-textarea-bottom-checkbox p{
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+#demander-form-derogations p{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+
+#demander-form-closure-checkbox, .demander-form-closure-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#demander-form-closure-checkbox div{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#demander-form-closure-checkbox p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#demander-form-closure-checkbox input{
+    width: 20px;
+    margin-right: 10px;
+}
+
+#demander-form-closure-checkbox-area{
+    margin-left: 30px;
+    margin-top: 0px !important;
+}
+
+#demander-form-closure-ncType-checkbox{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#demander-form-closure-ncType-checkbox div{
+    display: flex;
+}
+
+#demander-form-closure-ncType-checkbox p{
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+#demander-form-closure-ncType-checkbox input{
+    width: 17px;
+}
+
+#demander-form-evaluation{
+    margin-top: 35px;
+}
+
+.demander-form-box{
+    border: 2px solid #faa82d;
+    border-radius: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+#demander-form-evaluation-estimates{
+    font-size: 15px;
+}
+
+#demander-form-evaluation-estimates p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#demander-form-evaluation-levels{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#demander-form-evaluation-levels div{
+    display: flex;
+    justify-content: center;
+}
+
+#demander-form-evaluation-levels p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#demander-form-evaluation-levels input{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.green{
+    background-color: #02942e;
+}
+
+.yellow{
+    background-color: #fffb05;
+}
+
+.orange{
+    background-color: #fa7b01;
+}
+
+.red{
+    background-color: #df0101;
+}
+
+.f-white{
+    color: #fff;
+    margin-left: 5px;
+}

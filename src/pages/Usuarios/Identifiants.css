@@ -1,9 +1,28 @@
 #identifiants-box{
     background-color: aqua;
-    display: flex;
-    justify-content: center;
     padding: 50px;
     border-radius: 25px;
+}
+
+#identifiants-box-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#identifiants-box-button button{
+    background-color: #009fe8;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#identifiants-box-button button:hover{
+    background-color: #028dce;
 }
 
 #identifiants-table{
@@ -18,10 +37,21 @@
     border: 3px solid #009fe8;
 }
 
-#identifiants-table th{
+#identifiants-table td, #identifiants-table th{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     border: 3px solid #bdbdbd;
+}
+
+#identifiants-table input{
+    padding: 5px;
+    width: 180px;
+    font-size: 14px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#identifiants-table select{
+    margin: 0px;
 }

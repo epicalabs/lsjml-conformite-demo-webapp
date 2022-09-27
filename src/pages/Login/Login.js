@@ -51,23 +51,23 @@ const Login = () => {
         {activeForm &&
         <>
             <div id='login-card'>
-                <h1>Login</h1>
+                <h1>LSJML</h1>
                 <form onSubmit={handleLogin}>
                     <div className='login-card-field'>
-                        <p>Username:</p>
+                        <p>Usager:</p>
                         <input type="text" onChange={({target}) => setUsername(target.value)} className='login-card-field-input' required/>
                     </div>
                     <div className='login-card-field'>
-                        <p>Password:</p>
+                        <p>Mot de passe:</p>
                         <input type="password" onChange={({target}) => setPassword(target.value)} className='login-card-field-input' required/>
                     </div>
-                    <button id='login-card-btn'>Sign In</button>
+                    <button id='login-card-btn'>Entrer</button>
                 </form>
             </div>
             {error &&
                 <div id='login-card-error'>
                     <img src={errorIcon} alt="error icon" />
-                    <p>Wrong username and/or password</p>
+                    <p>Utilisateur et/ou mot de passe incorrect</p>
                 </div>
             }
         </>
@@ -76,13 +76,13 @@ const Login = () => {
             <div id='login-loading'>
                 <div>
                     <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
-                    <h1>Wait please.</h1>
+                    <h1>Veuillez patienter</h1>
                 </div>
             </div>
         }
         {success &&
             <div id='login-success'>
-                <h1>{`Welcome, ${username}!`}</h1>
+                <h1>{`¡Bienvenue, ${username}!`}</h1>
             </div>
         }
     </section>

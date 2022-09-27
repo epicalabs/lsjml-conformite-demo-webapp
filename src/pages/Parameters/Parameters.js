@@ -22,7 +22,7 @@ const Parameters = () => {
                 className='btn product' 
                 whileHover={{ scale: 1.1 }} 
                 whileTap={{ scale: 1 }}>
-                producto
+                produit
               </motion.button>
             </Link>
           </li> |
@@ -32,7 +32,7 @@ const Parameters = () => {
                 className='btn supplier'
                 whileHover={{ scale: 1.1 }} 
                 whileTap={{ scale: 1 }}>
-                proveedor
+                fournisseur
               </motion.button>
             </Link>
           </li> |
@@ -42,7 +42,7 @@ const Parameters = () => {
                 className='btn client'
                 whileHover={{ scale: 1.1 }} 
                 whileTap={{ scale: 1 }}>
-                clientes
+                clients
               </motion.button>
             </Link>
           </li> |
@@ -52,7 +52,7 @@ const Parameters = () => {
                 className='btn categories'
                 whileHover={{ scale: 1.1 }} 
                 whileTap={{ scale: 1 }}>
-                categorias
+                catégories
               </motion.button>
             </Link>
           </li>

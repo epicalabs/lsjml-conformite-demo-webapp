@@ -26,17 +26,17 @@ const WarehouseForm = () => {
               </select>
             </div>
           </div>
-          <div id='warehouse-top-left-rside'>
-            <div>
-              <p>Date:</p>
-              <p>2022-09-06</p>
-            </div>
-            <div>
-              <p>Nom du client:</p>
-              <select name="" id="">
-                <option value="Mauricio">Mauricio</option>
-              </select>
-            </div>
+        </div>
+        <div id='warehouse-top-center'>
+          <div>
+            <p>Date:</p>
+            <p>2022-09-06</p>
+          </div>
+          <div>
+            <p>Nom du client:</p>
+            <select name="" id="">
+              <option value="Mauricio">Mauricio</option>
+            </select>
           </div>
         </div>
         <div id='warehouse-top-right'>

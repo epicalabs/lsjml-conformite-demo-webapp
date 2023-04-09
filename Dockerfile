@@ -8,6 +8,7 @@ ENV NODE_ENV dev
 # Setting up the work directory
 WORKDIR /usr/src/app
 
+
 # Installing dependencies
 COPY package*.json ./
 RUN npm install
